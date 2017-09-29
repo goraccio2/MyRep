@@ -10,17 +10,10 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
-            var character = 'A';
-            Console.WriteLine("Hello World");
-            try
-            {
+            Console.WriteLine("Enter a number");
+            var input = Int32.Parse(Console.ReadLine());
+            Console.WriteLine("Your number is " + input);
 
-            }
-            catch (Exception)
-            {
-                
-                throw;
-            }
         }
     }
 }
